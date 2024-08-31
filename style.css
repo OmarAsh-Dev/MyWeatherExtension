@@ -1,0 +1,138 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* Card Styling */
+.card{
+    flex: 1 1 300px;
+    max-width: 500px;
+    height: 590px;
+    background: linear-gradient(170deg, #31e99c, #466ef5);
+    color: #fff;
+    padding: 40px 35px;
+    text-align: center;
+}
+
+
+
+/* Search Styling */
+.search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    filter: drop-shadow(2px  0px 2px #74e9a1);
+
+}
+
+.search input {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+
+.search button {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.search button img {
+    width: 30px;
+    height: 30px;
+}
+
+/* Weather Icon and Text Styling */
+.weather-icon {
+    width: 170px;
+    margin-top: 14px;
+    filter: drop-shadow(4px  0px 4px #ffffff);
+}
+
+.weather h1 {
+    font-size: 67px;
+    font-weight: 500;
+    filter: drop-shadow(2px  0px 2px #61f198);
+}
+
+.weather h2 {
+    margin-top: 2px;
+    font-size: 45px;
+    font-weight: 400;
+    filter: drop-shadow(2px  0px 2px #61f198);
+}
+
+/* Details Styling */
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    margin-top: 50px;
+    font-size: 24px;
+    filter: drop-shadow(2px  0px 2px #61f198);
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin: 1px;
+    justify-content: center;
+}
+
+.col img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.humidity,
+.wind,p {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+
+/* Error Styling */
+.error {
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 24px;
+    display: none;
+}
+
+/* Control Styling */
+.controls {
+    margin-top: -2px;
+    border: 1px solid transparent;
+    border-radius: 2px 0 0 2px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    height: 32px;
+    outline: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.controls:focus {
+    border-color: #4d90fe;
+}
+
